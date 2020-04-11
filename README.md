@@ -67,12 +67,12 @@ Support all the cookie options from the [RFC 6265](https://tools.ietf.org/html/r
 > Is only the server can access the cookie? **true or false**
 
 ### sameSite
-####Specifies the boolean or string to be the value for the SameSite Set-Cookie attribute.<br />
-> true will set the SameSite attribute to Strict for strict same site enforcement.
-> false will not set the SameSite attribute.
-> 'lax' will set the SameSite attribute to Lax for lax same site enforcement.
-> 'none' will set the SameSite attribute to None for an explicit cross-site cookie.
-> 'strict' will set the SameSite attribute to Strict for strict same site enforcement.
+>Specifies the boolean or string to be the value for the SameSite Set-Cookie attribute.<br />
+> true will set the SameSite attribute to Strict for strict same site enforcement.<br />
+> false will not set the SameSite attribute.<br />
+> 'lax' will set the SameSite attribute to Lax for lax same site enforcement.<br />
+> 'none' will set the SameSite attribute to None for an explicit cross-site cookie.<br />
+> 'strict' will set the SameSite attribute to Strict for strict same site enforcement.<br />
 
 # Example
 
