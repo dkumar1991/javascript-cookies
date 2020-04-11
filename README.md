@@ -1,6 +1,6 @@
 # react-cookie
-[![npm version](https://badge.fury.io/js/react-cookie.svg)](https://badge.fury.io/js/react-cookie)
-[![Build Status](https://travis-ci.org/thereactivestack/react-cookie.svg?branch=master)](https://travis-ci.org/thereactivestack/react-cookie)
+[![npm version](https://badge.fury.io/js/javascript-cookies.svg)](https://badge.fury.io/js/javascript-cookies)
+[![Build Status](https://travis-ci.org/dkumar1991/javascript-cookies.svg?branch=master)](https://travis-ci.org/dkumar1991/javascript-cookies)
 <br />
 Load, save and remove cookies on the browser or Node.js
 
@@ -13,14 +13,11 @@ To be able to access user cookies while doing server-rendering, you can use [`pl
 ## API
 ### load(name, [doNotParse])
 Load the cookie value.<br />
-<br />
 Returns `undefined` if the cookie does not exist.<br />
 Deserialize any cookie starting with { or [ unless `dotNotParse` is `true`.
 
-
 ### select([regex])
 Find all the cookies with a name that match the regex.<br />
-<br />
 Returns an `object` with the cookie name as the key.
 
 ### save(name, val, [[options]](#user-content-options))
@@ -34,9 +31,7 @@ Load the user cookies so you can do server-rendering and match the same result.<
 Also send back to the user the new cookies.<br />
 Work with connect or express.js by using the cookieParser middleware first.<br />
 Use `const unplug = plugToRequest(req, res)` just before your `renderToString`.<br />
-<br />
 Returns `unplug()` function so it stops setting cookies on the response.
-
 
 ### setRawCookie(cookies)
 Load the user cookies so you can do server-rendering and match the same result.<br />
@@ -67,18 +62,18 @@ Support all the cookie options from the [RFC 6265](https://tools.ietf.org/html/r
 > Is only the server can access the cookie? **true or false**
 
 ### sameSite
->Specifies the boolean or string to be the value for the SameSite Set-Cookie attribute.<br />
-> true will set the SameSite attribute to Strict for strict same site enforcement.<br />
-> false will not set the SameSite attribute.<br />
-> 'lax' will set the SameSite attribute to Lax for lax same site enforcement.<br />
-> 'none' will set the SameSite attribute to None for an explicit cross-site cookie.<br />
-> 'strict' will set the SameSite attribute to Strict for strict same site enforcement.<br />
+>Specifies the **boolean** or **string** to be the value for the **SameSite Set-Cookie attribute**.<br />
+> - **true** will set the SameSite attribute to **Strict** for strict same site enforcement.<br />
+> - **false** will not set the SameSite attribute.<br />
+> - **lax** will set the SameSite attribute to Lax for lax same site enforcement.<br />
+> - **none** will set the SameSite attribute to None for an explicit cross-site cookie.<br />
+> - **strict** will set the SameSite attribute to Strict for strict same site enforcement.<br />
 
 # Example
 
 ```js
 import { Component } from 'react';
-import cookie from 'react-cookie';
+import cookie from 'javascript-cookies';
 
 import LoginPanel from './LoginPanel';
 import Dashboard from './Dashboard';
