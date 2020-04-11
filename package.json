@@ -5,10 +5,10 @@
   "main": "build/cookie.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/thereactivestack/react-cookie.git"
+    "url": "https://github.com/dkumar1991/javascript-cookies.git"
   },
-  "bugs": "https://github.com/thereactivestack/react-cookie/issues",
-  "homepage": "https://github.com/thereactivestack/react-cookie#readme",
+  "bugs": "https://github.com/dkumar1991/javascript-cookies/issues",
+  "homepage": "https://github.com/dkumar1991/javascript-cookies#readme",
   "keywords": [
     "cookie",
     "cookies",
