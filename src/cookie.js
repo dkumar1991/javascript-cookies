@@ -1,4 +1,4 @@
-import cookie from 'cookie-function';
+import cookie from 'cookie';
 import objectAssign from 'object-assign';
 
 const IS_NODE = typeof document === 'undefined' || (process && process.env && process.env.NODE_ENV === 'test');
