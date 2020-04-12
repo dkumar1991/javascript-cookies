@@ -1,4 +1,4 @@
-# react-cookie
+# javascript-cookies
 [![npm version](https://badge.fury.io/js/javascript-cookies.svg)](https://badge.fury.io/js/javascript-cookies)
 [![Build Status](https://travis-ci.org/dkumar1991/javascript-cookies.svg?branch=master)](https://travis-ci.org/dkumar1991/javascript-cookies)
 <br />
